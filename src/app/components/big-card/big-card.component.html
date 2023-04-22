@@ -1,7 +1,7 @@
 <div class="container__big-card">
 <div class="big-card__photo">
     <img 
-        src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/26079ab060401d8a76039e985d63a3e9.jpe" 
+        src="{{ photoCover }}" 
         alt="DragonBall"
         height= "200px" 
         srcset=""
@@ -9,13 +9,13 @@
 </div>
 
 <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
 </div>
 
 <div class="big-card__description">
     <p>
         <a href="#">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellendus iste laboriosam veritatis porro pariatur voluptate, mollitia, eligendi odio aliquam doloremque debitis tempore omnis harum, eveniet ducimus consectetur saepe cum.
+            {{ cardDescription }}
         </a>
     </p>
 </div>
