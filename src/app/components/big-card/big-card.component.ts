@@ -13,4 +13,12 @@ photoCover:string ="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x67
 cardTitle:string ="Dragon Ball continua lançando episódios!"
 @Input() 
 cardDescription:string =""
+@Input()
+id:string="0"
+
+constructor() {}
+
+ngOnInit():void {
+
+}
 }
